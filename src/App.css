@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 5rem;
+}
+
+.table-container {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.text-container {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.row-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border: 1px black solid;
+  cursor: pointer;
+}
+
+.player-input label {
+  margin-right: 5px;
+}
+
+.player-names {
+  width: 300px;
+  padding: 1rem;
+  background-color: rgb(100, 255, 100);
+  border-radius: 1rem;
+  margin-top: 2rem;
+  color: rgb(33, 33, 33);
+  font-size: 40px;
+  text-align: center;
+}
+
+.player-names p {
+  margin: 0;
+  padding: 0;
+  color: rgb(33, 33, 33);
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  font-size: 14px;
+  height: 30px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.next-player {
+  font-size: 40px;
+  color: aqua;
+}
+
+.next-player.hidden {
+  display: none;
+}
+
+body {
+  background-color: rgb(33, 33, 33);
+  color: white;
+}

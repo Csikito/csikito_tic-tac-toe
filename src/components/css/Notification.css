@@ -1,0 +1,43 @@
+.notification {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 100px;
+  margin-top: 2rem;
+}
+
+.noti__text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -500px;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: brown;
+  animation: noti 5s infinite;
+}
+
+.noti__text.new {
+  background-color: rgb(100, 255, 100);
+  color: rgb(33, 33, 33);
+}
+
+@keyframes noti {
+  0% {
+    bottom: -500px;
+  }
+
+  10% {
+    bottom: 0px;
+  }
+  90% {
+    bottom: 0px;
+  }
+  100% {
+    bottom: -500px;
+  }
+}
